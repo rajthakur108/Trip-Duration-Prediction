@@ -33,10 +33,11 @@ env/
 *.log
 logs/
 
-
+# Data files
+data/
+*.parquet
 
 # Model artifacts
-
 *.pkl
 *.pickle
 
