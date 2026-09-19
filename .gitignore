@@ -1,0 +1,62 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build files
+build/
+dist/
+*.egg-info/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Data files
+data/
+*.csv
+*.parquet
+
+# Model artifacts
+*.joblib
+*.pkl
+*.pickle
+
+# ML experiment artifacts
+mlruns/
+.mlflow/
+
+# Prefect local files
+.prefect/
+
+# Monitoring outputs
+outputs/
+reports/
+
+# Docker
+docker-compose.override.yml
+
+# Test generated files
+tests/integration_tests/result_*.csv
+tests/integration_tests/*.log

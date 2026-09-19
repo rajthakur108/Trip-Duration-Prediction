@@ -1,0 +1,24 @@
+artifact_path: /Users/akhilendra.singh/Documents/Trip-Duration-Prediction/model-building/artifacts/1/models/m-cd9dc0e5435548428280d448765f4a93/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - scipy.sparse._csr.csr_matrix
+mlflow_version: 3.16.0
+model_id: m-cd9dc0e5435548428280d448765f4a93
+model_size_bytes: 63211339
+model_uuid: m-cd9dc0e5435548428280d448765f4a93
+prompts: null
+run_id: 7f6bcc51d0a846c7bdc3c8c56e0752d5
+utc_time_created: '2026-09-15 08:34:30.406111'

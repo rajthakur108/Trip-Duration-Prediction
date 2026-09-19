@@ -1,0 +1,55 @@
+[project]
+name = "trip-duration-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anyio>=4.4,<4.14",
+    "evidently==0.6.7",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "mlflow>=2.14.0",
+    "numpy>=1.22.0,<2.1",
+    "optuna>=5.0.0",
+    "pandas>=2.2,<3",
+    "prefect==2.20.2",
+    "psycopg[binary]>=3.2.0",
+    "pydantic<2",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "isort>=9.0.1",
+    "pylint>=4.0.8",
+    "pytest>=9.1.1",
+]
+
+[tool.pylint.messages_control]
+
+disable = [
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "redefined-outer-name",
+    "missing-timeout",
+    "chained-comparison",
+    "duplicate-code",
+    "line-too-long",
+    "invalid-name",
+    "unused-argument",
+    "unused-variable",
+    "unused-import",
+    "too-many-positional-arguments",
+    "too-many-arguments",
+    "too-many-locals",
+    "no-value-for-parameter",
+    "inconsistent-return-statements",
+    "f-string-without-interpolation",
+    "no-else-return",
+    "missing-final-newline",
+    "trailing-newlines",
+    "wrong-import-order",
+    "unspecified-encoding"
+]
