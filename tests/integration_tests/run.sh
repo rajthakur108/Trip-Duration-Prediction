@@ -30,5 +30,3 @@ docker stop taxi-service
 docker rm taxi-service
 
 EXIT ${ERROR_CODE}
-
-

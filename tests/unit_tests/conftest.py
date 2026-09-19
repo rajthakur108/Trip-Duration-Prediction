@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import joblib
 import pandas as pd
 import pytest
@@ -5,7 +7,9 @@ import pytest
 
 @pytest.fixture
 def model():
-    return joblib.load("../../model-building/best_model.joblib")
+    project_root = Path(__file__).parents[2]
+    model_path = project_root / "model-building" / "best_model.joblib"
+    return joblib.load(model_path)
 
 
 @pytest.fixture
